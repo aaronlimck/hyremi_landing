@@ -150,7 +150,7 @@ export default function Home() {
             <p className="text-base text-slate-600 font-medium">
               Easily collaborate with fellow freelancers on our platform to work
               on projects that require a diverse set of skills. We understand
-              that no one can possess every skill, which is why we've made it
+              that no one can possess every skill, which is why we&apos;ve made it
               effortless for you to connect and collaborate with other talented
               freelancers.
             </p>
@@ -166,7 +166,7 @@ export default function Home() {
           <div className="space-y-2 md:space-y-4">
             <h2 className="text-2xl font-bold">Join the waitlist</h2>
             <p className="text-base text-slate-600 font-medium">
-              We're working to launch our platform to early access users by Q3
+              We&apos;re working to launch our platform to early access users by Q3
               of 2023, where you can connect with like minded individuals, seek
               support and exchange value insights.
             </p>
