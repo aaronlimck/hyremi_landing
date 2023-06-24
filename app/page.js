@@ -102,8 +102,7 @@ export default function Home() {
               <p className="text-base text-slate-600 font-medium">
                 No talent fees. Keep what you earn! At our core belief, we value
                 your efforts and acknowledge that you deserve to retain all you
-                have earn from your projects (Psst... we charged your client
-                instead).
+                have earn from your projects.
               </p>
             </div>
           </div>
@@ -112,7 +111,7 @@ export default function Home() {
 
       <div className="container max-w-7xl w-full mx-auto py-20 space-y-24">
         {/* L1 */}
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-6 md:gap-24">
           <div className="space-y-2 p-2 sm:px-6 sm:pb-6">
             <h2 className="text-2xl font-semibold">Showcase your works</h2>
             <p className="text-base text-slate-600 font-medium">
@@ -134,12 +133,13 @@ export default function Home() {
           />
         </div>
         {/* L2 */}
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-6 md:gap-24">
           <Image
-            className="mx-auto max-w-md xl:max-w-xl"
-            height={1764}
-            width={2592}
-            quality={100}
+            className="mx-auto w-full h-auto"
+            height="0"
+            width="0"
+            sizes="100vw"
+            quality={80}
             src="/collab.png"
             alt=""
           />
