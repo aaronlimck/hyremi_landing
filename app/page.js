@@ -17,7 +17,7 @@ export default function Home() {
 
       <div
         style={{
-          background: "url(/background.png)",
+          background: "url(/background.webp)",
           backgroundSize: "cover",
         }}
       >
@@ -33,7 +33,7 @@ export default function Home() {
             className="mx-auto -rotate-[20deg] overflow-x-hidden"
             height={400}
             width={400}
-            src="/hero_image.svg"
+            src="/hero_image.png"
             alt=""
           />
         </div>
@@ -57,7 +57,7 @@ export default function Home() {
               height={200}
               width={200}
               quality={100}
-              src="/community.svg"
+              src="/community.png"
               alt=""
             />
             <div className="space-y-2">
@@ -75,7 +75,7 @@ export default function Home() {
               height={200}
               width={200}
               quality={100}
-              src="/opportunities.svg"
+              src="/opportunities.png"
               alt=""
             />
             <div className="space-y-2">
@@ -94,7 +94,7 @@ export default function Home() {
               height={200}
               width={200}
               quality={100}
-              src="/money.svg"
+              src="/money.png"
               alt=""
             />
             <div className="space-y-2">
