@@ -63,9 +63,9 @@ export default function Home() {
             <div className="space-y-2">
               <h2 className="text-2xl font-semibold">Vibrant Community</h2>
               <p className="text-base text-slate-600 font-medium">
-                Connect with like minded individuals, seek support and exchange
-                value insights. We believe in the power of collaboration and the
-                potential for freelancers to learn from one another.
+                Connect with like-minded individuals, seek support, and exchange
+                valuable insights. We believe in the power of collaboration and
+                the potential for freelancers to learn from one another.
               </p>
             </div>
           </div>
@@ -102,7 +102,7 @@ export default function Home() {
               <p className="text-base text-slate-600 font-medium">
                 No talent fees. Keep what you earn! At our core belief, we value
                 your efforts and acknowledge that you deserve to retain all you
-                have earn from your projects.
+                have earned from your projects.
               </p>
             </div>
           </div>
@@ -118,7 +118,7 @@ export default function Home() {
               We design your profiles to showcase your talents and past work. We
               believe that your skills and experiences are the most important
               factors that clients are interested in. Our design approach is
-              centred around highlighting your expertise, allowing you to
+              centered around highlighting your expertise, allowing you to
               present a compelling portfolio that truly demonstrates your
               capabilities.
             </p>
@@ -150,9 +150,9 @@ export default function Home() {
             <p className="text-base text-slate-600 font-medium">
               Easily collaborate with fellow freelancers on our platform to work
               on projects that require a diverse set of skills. We understand
-              that no one can possess every skill, which is why we&apos;ve made it
-              effortless for you to connect and collaborate with other talented
-              freelancers.
+              that no one can possess every skill, which is why we&apos;ve made
+              it effortless for you to connect and collaborate with other
+              talented freelancers.
             </p>
           </div>
         </div>
@@ -166,9 +166,9 @@ export default function Home() {
           <div className="space-y-2 md:space-y-4">
             <h2 className="text-2xl font-bold">Join the waitlist</h2>
             <p className="text-base text-slate-600 font-medium">
-              We&apos;re working to launch our platform to early access users by Q3
-              of 2023, where you can connect with like minded individuals, seek
-              support and exchange value insights.
+              We&apos;re working to launch our platform to early-access users by
+              Q3 of 2023, where you can connect with like-minded individuals,
+              seek support, and exchange value insights.
             </p>
           </div>
           <div className="md:relative md:mx-auto">
