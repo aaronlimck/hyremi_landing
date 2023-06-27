@@ -1,7 +1,6 @@
 import "@/styles/globals.css";
 import { Open_Sans } from "next/font/google";
 import { TailwindIndicator } from "@/components/TailwindIndicator";
-import Head from "next/head";
 
 const inter = Open_Sans({ subsets: ["latin"] });
 
@@ -14,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="antialiased select-none">
-      <Head>
+      <head>
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:image" content="/opengraph.png" />
@@ -27,7 +26,7 @@ export default function RootLayout({ children }) {
           property="twitter:description"
           content={metadata.description}
         ></meta>
-      </Head>
+      </head>
       <body
         className={`${inter.className}`}
         style={{
