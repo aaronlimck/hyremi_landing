@@ -100,9 +100,10 @@ export default function Home() {
             <div className="space-y-2">
               <h2 className="text-2xl font-semibold">Make more money</h2>
               <p className="text-base text-slate-600 font-medium">
-                No talent fees. Keep what you earn! At our core belief, we value
-                your efforts and acknowledge that you deserve to retain all you
-                have earned from your projects.
+                Lower commission fees. Keep more of what you earn! At our core
+                belief, we value your efforts and acknowledge that you deserve
+                to retain a higher percentage of your earnings from your
+                projects.
               </p>
             </div>
           </div>
