@@ -1,0 +1,47 @@
+"use client";
+
+import BenefitsCard from "./BenefitsCard";
+import { Hub, Workfolio, ServiceMenu, Payment } from "./Icons";
+
+const Benefits = () => {
+  return (
+    <div className="w-full max-w-screen-xl mx-auto flex flex-row items-center gap-10 py-16">
+      <div className="w-2/5 md:pr-6">
+        <p className="uppercase font-semibold text-sm mb-3">Core Features 🔥</p>
+        <h1 className="text-4xl font-semibold leading-snug mb-4">
+          Unleash the full financial potential with our best features
+        </h1>
+        <p>
+          Showcase your work and services to attract clients effortlessly. Let
+          us handle administrative tasks so you can focus on what you excel at.
+        </p>
+      </div>
+      <div className="w-3/5">
+        <div className="grid grid-cols-2 gap-4">
+          <BenefitsCard
+            icon={<Hub />}
+            heading="Hub"
+            description="Connect and collaborate with like-minded professionals in Hub. Expand your network, share ideas, and grow together."
+          />
+          <BenefitsCard
+            icon={<Workfolio />}
+            heading="Workfolio"
+            description="Effortlessly exhibit your past work and accomplishments without the hassle of creating a website."
+          />
+          <BenefitsCard
+            icon={<ServiceMenu />}
+            heading="Service Menu"
+            description="Empower potential clients with transparency and make it effortless for them to explore and engage with your services."
+          />
+          <BenefitsCard
+            icon={<Payment />}
+            heading="Simplified Payment"
+            description="Effortlessly request and receive payments without complications. Say goodbye to billing and tracking hassles."
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Benefits;

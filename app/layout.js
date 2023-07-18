@@ -1,8 +1,8 @@
 import "@/styles/globals.css";
-import { Open_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import { TailwindIndicator } from "@/components/TailwindIndicator";
 
-const inter = Open_Sans({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Hyremi",
@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="antialiased select-none">
+    <html lang="en" className="antialiased">
       <head>
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
@@ -30,7 +30,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.className}`}
         style={{
-          backgroundColor: "#f8f6f0",
+          background: "url(/background.png)",
+          backgroundSize: "cover",
+          backdropFilter: "blur(100%)",
         }}
       >
         {children}
