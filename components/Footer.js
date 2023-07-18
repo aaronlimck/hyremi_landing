@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="mx-auto w-full max-w-screen-xl flex flex-row justify-between py-6">
+    <footer className="container mx-auto w-full max-w-screen-xl flex flex-row justify-between py-6">
       <p className="text-gray-600 text-sm">
         © Hyremi. 2023 - All rights reserved.
       </p>

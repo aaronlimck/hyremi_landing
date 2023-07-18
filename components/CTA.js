@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const CTA = () => {
   return (
-    <div className="py-10 ">
+    <div className="py-10 container">
       <div
         style={{ background: "#F2F0EA" }}
         className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl w-full mx-auto p-10 rounded-xl overflow-clip"

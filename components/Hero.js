@@ -2,11 +2,12 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="dynamicViewPort w-full max-w-screen-xl flex flex-col justify-center items-center mx-auto space-y-4">
-      <h1 className="text-5xl font-bold text-center leading-snug">
-        Revolutionize knowledge work
-        <br />
-        Connect. Showcase. Prosper
+    <div className="max-h-max w-full max-w-screen-xl flex flex-col justify-center items-center mx-auto space-y-4 py-10">
+      <h1
+        className="w-full max-w-xl text-3xl md:text-4xl text-5xl font-bold text-center"
+        style={{ textWrap: "balance" }}
+      >
+        Revolutionize knowledge work Connect. Showcase. Prosper
       </h1>
       <p className="w-full max-w-md text-center">
         Showcase your work and services to attract clients effortlessly. Let us
