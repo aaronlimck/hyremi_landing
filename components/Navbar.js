@@ -3,10 +3,10 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <nav>
-      <div class="sticky inset-x-0 top-0 z-30 w-full transition-all">
-        <div class="mx-auto w-full max-w-screen-xl px-4 py-4">
+      <div className="sticky inset-x-0 top-0 z-30 w-full transition-all">
+        <div className="mx-auto w-full max-w-screen-xl px-4 py-4">
           {/*  px-2.5 md:px-20 */}
-          <div class="flex h-14 items-center justify-between">
+          <div className="flex h-14 items-center justify-between">
             <a href="/">
               <Image
                 src="/hyremi_logo.png"
@@ -14,6 +14,7 @@ const Navbar = () => {
                 height={0}
                 sizes="100vw"
                 style={{ width: "100px", height: "100%" }} // optional
+                alt="hyremi_logo"
               />
             </a>
 

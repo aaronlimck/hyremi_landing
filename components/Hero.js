@@ -20,6 +20,7 @@ const Hero = () => {
         height={0}
         sizes="100vw"
         style={{ width: "auto", height: "420px" }} // optional
+        alt=""
       />
 
       <Image
@@ -29,6 +30,7 @@ const Hero = () => {
         height={0}
         sizes="100vw"
         style={{ width: "auto", height: "140px" }} // optional
+        alt=""
       />
 
       <Image
@@ -38,6 +40,7 @@ const Hero = () => {
         height={0}
         sizes="100vw"
         style={{ width: "auto", height: "140px" }} // optional
+        alt=""
       />
 
       <Image
@@ -47,6 +50,7 @@ const Hero = () => {
         height={0}
         sizes="100vw"
         style={{ width: "auto", height: "140px" }} // optional
+        alt=""
       />
 
       <Image
@@ -56,6 +60,7 @@ const Hero = () => {
         height={0}
         sizes="100vw"
         style={{ width: "auto", height: "140px" }} // optional
+        alt=""
       />
     </div>
   );

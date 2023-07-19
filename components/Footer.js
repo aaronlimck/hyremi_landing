@@ -18,6 +18,7 @@ const Footer = () => {
             height={0}
             sizes="100vw"
             style={{ width: "24px", height: "24px", opacity: "80%" }} // optional
+            alt="linkedin-icon"
           />
         </a>
         <a
@@ -31,6 +32,7 @@ const Footer = () => {
             height={0}
             sizes="100vw"
             style={{ width: "24px", height: "24px", opacity: "80%" }} // optional
+            alt="tiktok-icon"
           />
         </a>
         <a
@@ -44,6 +46,7 @@ const Footer = () => {
             height={0}
             sizes="100vw"
             style={{ width: "24px", height: "24px", opacity: "80%" }} // optional
+            alt="instagram-icon"
           />
         </a>
       </div>

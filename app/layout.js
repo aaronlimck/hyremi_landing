@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
         />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
-          if (window.location.hostname !== 'localhost') && window.location.hostname === 'hyremi.com'  {
+          if (window.location.hostname !== 'localhost' && window.location.hostname === 'hyremi.com') {
             window.dataLayer = window.dataLayer || [];
             function gtag(){window.dataLayer.push(arguments);}
             gtag('js', new Date());
