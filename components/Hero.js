@@ -23,7 +23,7 @@ const Hero = () => {
       />
 
       <Image
-        className="absolute hidden md:block md:left-[80px] lg:left-[120px] top-[220px] transition-transform duration-300 hover:scale-110 cursor-pointer"
+        className="absolute hidden md:block md:left-[110px] lg:left-[170px] top-[220px] transition-transform duration-300 hover:scale-110 cursor-pointer"
         src="/profile_card_robert.png"
         width={0}
         height={0}
@@ -32,7 +32,7 @@ const Hero = () => {
       />
 
       <Image
-        className="absolute hidden md:block md:left-[110px] lg:left-[170px] top-[420px] transition-transform duration-300 hover:scale-110 cursor-pointer"
+        className="absolute hidden md:block md:left-[80px] lg:left-[120px] top-[420px] transition-transform duration-300 hover:scale-110 cursor-pointer"
         src="/profile_card_jennifer.png"
         width={0}
         height={0}
