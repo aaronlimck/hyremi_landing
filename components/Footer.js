@@ -33,13 +33,19 @@ const Footer = () => {
             style={{ width: "24px", height: "24px", opacity: "80%" }} // optional
           />
         </a>
-        <Image
-          src="/instagram.png"
-          width={0}
-          height={0}
-          sizes="100vw"
-          style={{ width: "24px", height: "24px", opacity: "80%" }} // optional
-        />
+        <a
+          href="https://www.instagram.com/hyremisg/"
+          target="_blank"
+          className="cursor-pointer"
+        >
+          <Image
+            src="/instagram.png"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: "24px", height: "24px", opacity: "80%" }} // optional
+          />
+        </a>
       </div>
     </footer>
   );
