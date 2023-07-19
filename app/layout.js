@@ -5,12 +5,6 @@ import { TailwindIndicator } from "@/components/TailwindIndicator";
 import Script from "next/script";
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_MEASUREMENT_ID;
 
-// HOTJAR INIT
-import Hotjar from "@hotjar/browser";
-const siteId = 3579633;
-const hotjarVersion = 6;
-Hotjar.init(siteId, hotjarVersion);
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
