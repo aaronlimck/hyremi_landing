@@ -9,7 +9,7 @@ const Hero = () => {
       >
         Revolutionize knowledge work Connect. Showcase. Prosper
       </h1>
-      <p className="w-full max-w-md text-center">
+      <p className="w-full max-w-md text-center pb-6">
         Showcase your work and services to attract clients effortlessly. Let us
         handle administrative tasks so you can focus on what you excel at.
       </p>
