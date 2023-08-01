@@ -9,11 +9,12 @@ const Benefits = () => {
       <div className="w-full lg:w-2/5 p-0 sm:p-4 lg:p-0">
         <p className="uppercase font-semibold text-sm mb-3">Core Features 🔥</p>
         <h1 className="text-4xl font-semibold leading-snug mb-4">
-          Unleash the full financial potential with our best features
+          One Platform, Infinite Possibilities!
         </h1>
-        <p>
-          Showcase your work and services to attract clients effortlessly. Let
-          us handle administrative tasks so you can focus on what you excel at.
+        <p className="max-w-[460px]">
+          Simplifying your journey with a unified space to connect, collaborate,
+          and support each other - no more isolation! Showcase your expertise,
+          find opportunities, and communicate seamlessly on one platform.
         </p>
       </div>
       <div className="w-full lg:w-3/5">
@@ -31,7 +32,7 @@ const Benefits = () => {
           <BenefitsCard
             icon={<ServiceMenu />}
             heading="Service Menu"
-            description="Empower potential clients with transparency and make it effortless for them to explore and engage with your services."
+            description="Empower potential clients with transparency and make it effortless for them to explore and engage you."
           />
           <BenefitsCard
             icon={<Payment />}
