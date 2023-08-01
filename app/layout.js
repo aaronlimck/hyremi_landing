@@ -33,9 +33,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.className}`}
         style={{
-          background: "url(/background.png)",
-          backgroundSize: "cover",
-          backdropFilter: "blur(100%)",
+          background: "#F7F8F9",
+          // background: "url(/background.png)",
+          // backgroundSize: "cover",
+          // backdropFilter: "blur(100%)",
         }}
       >
         {children}
