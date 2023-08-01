@@ -7,11 +7,12 @@ const Hero = () => {
         className="w-full lg:max-w-3xl text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center"
         style={{ textWrap: "balance" }}
       >
-        Revolutionize knowledge work Connect. Showcase. Prosper
+        Your Rules, Your Career, Take Control
       </h1>
       <p className="w-full max-w-md text-center pb-6">
-        Showcase your work and services to attract clients effortlessly. Let us
-        handle administrative tasks so you can focus on what you excel at.
+        Work on your terms. Effortlessly attract clients with your works and
+        services. Leave the administrative tasks to us, while you shine at what
+        you do best!
       </p>
 
       <Image
