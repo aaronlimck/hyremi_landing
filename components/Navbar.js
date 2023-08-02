@@ -4,7 +4,8 @@ const Navbar = () => {
   return (
     <nav>
       <div className="sticky inset-x-0 top-0 z-30 w-full transition-all">
-        <div className="mx-auto w-full max-w-screen-xl px-4 py-4">
+        {/* border-b border-gray-200 bg-white/75 backdrop-blur-lg */}
+        <div className="mx-auto w-full max-w-screen-xl px-4 sm:px-3 md:px-2 py-2">
           {/*  px-2.5 md:px-20 */}
           <div className="flex h-14 items-center justify-between">
             <a href="/">
