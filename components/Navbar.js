@@ -1,12 +1,38 @@
+"use client";
+
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    // Function to check the scroll position and set isScrolled state
+    const handleScroll = () => {
+      const scrolled = window.scrollY > 0;
+      setIsScrolled(scrolled);
+    };
+
+    // Attach the scroll event listener when the component mounts
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  // Dynamically construct the class name based on the isScrolled state
+  const navClassName = `inset-x-0 top-0 z-30 w-full transition-all ${
+    isScrolled
+      ? "fixed border-b border-gray-200 bg-white/75 backdrop-blur-lg"
+      : ""
+  }`;
+
   return (
     <nav>
-      <div className="sticky inset-x-0 top-0 z-30 w-full transition-all">
-        {/* border-b border-gray-200 bg-white/75 backdrop-blur-lg */}
-        <div className="mx-auto w-full max-w-screen-xl px-4 sm:px-3 md:px-2 py-2">
-          {/*  px-2.5 md:px-20 */}
+      <div className={navClassName}>
+        <div className="mx-auto w-full max-w-screen-xl px-4 px-3 py-2">
           <div className="flex h-14 items-center justify-between">
             <a href="/">
               <Image
@@ -14,7 +40,7 @@ const Navbar = () => {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{ width: "100px", height: "100%" }} // optional
+                style={{ width: "90px", height: "100%" }} // optional
                 alt="hyremi_logo"
               />
             </a>
