@@ -5,17 +5,19 @@ const CTA = () => {
     <div className="py-10 container">
       <div
         style={{ background: "#F2F0EA" }}
-        className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl w-full mx-auto p-10 rounded-xl overflow-clip"
+        className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl w-full mx-auto p-8 rounded-xl overflow-clip"
       >
         <div>
-          <h1 className="text-2xl font-bold mb-3">Join the waitlist</h1>
-          <p>
+          <h1 className="text-center md:text-left text-2xl sm:text-3xl font-semibold mb-3">
+            Don't Wait. Join Today!
+          </h1>
+          <p className="text-center md:text-left">
             We’re working to launch our platform for early public access users
             by Q4 of 2023, where you can connect with like-minded individuals,
             seek support, and exchange value insights.
           </p>
         </div>
-        <div className="md:relative md:mx-auto">
+        <div className="mx-auto md:relative">
           <a href="https://tally.so/r/3xjo7G" target="_blank">
             <button
               type="button"
