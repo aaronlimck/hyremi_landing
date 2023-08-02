@@ -2,20 +2,30 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="container max-h-max w-full max-w-screen-xl flex flex-col justify-center items-center mx-auto space-y-4 py-10 relative">
+    <div className="container max-h-max w-full max-w-screen-xl flex flex-col justify-center items-center mx-auto space-y-6 py-10 relative">
       <h1
-        className="w-full lg:max-w-3xl text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center"
+        className="w-full lg:max-w-3xl text-4xl lg:text-5xl font-bold text-center"
         style={{ textWrap: "balance" }}
       >
         Your Rules, Your Career, Take Control
       </h1>
-      <p className="w-full max-w-md text-center pb-6">
+      <p className="w-full max-w-md text-center">
         Work on your terms. Effortlessly attract clients with your works and
         services. Leave the administrative tasks to us, while you shine at what
         you do best!
       </p>
 
       <Image
+        src="/interface.png"
+        width={0}
+        height={0}
+        sizes="100vw"
+        className="m-0 p-0"
+        style={{ width: "auto", height: "auto" }} // optional
+        alt=""
+      />
+
+      {/* <Image
         src="/avatar.png"
         width={0}
         height={0}
@@ -62,7 +72,7 @@ const Hero = () => {
         sizes="100vw"
         style={{ width: "auto", height: "140px" }} // optional
         alt=""
-      />
+      /> */}
     </div>
   );
 };
