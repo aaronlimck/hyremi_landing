@@ -15,6 +15,15 @@ const Hero = () => {
         you do best!
       </p>
 
+      <a href="https://tally.so/r/3xjo7G" target="_blank">
+        <button
+          type="button"
+          className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5"
+        >
+          Join Waitlist
+        </button>
+      </a>
+
       <Image
         src="/interface.png"
         width={0}
