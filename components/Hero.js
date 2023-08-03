@@ -28,7 +28,7 @@ const Hero = () => {
         width={0}
         height={0}
         sizes="100vw"
-        style={{ width: "auto", height: "420px" }} // optional
+        style={{ width: "auto", height: "320px" }} // optional
         alt=""
       />
 
