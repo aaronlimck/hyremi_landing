@@ -9,7 +9,7 @@ const CTA = () => {
       >
         <div>
           <h1 className="text-center md:text-left text-2xl sm:text-3xl font-semibold mb-3">
-            Don't Wait. Join Today!
+            Join the waitlist today!
           </h1>
           <p className="text-center md:text-left">
             We’re working to launch our platform for early public access users
