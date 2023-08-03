@@ -3,11 +3,10 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="container max-h-max w-full max-w-screen-xl flex flex-col justify-center items-center mx-auto space-y-6 py-10 relative">
-      <h1
-        className="w-full lg:max-w-3xl text-4xl lg:text-5xl font-bold text-center"
-        style={{ textWrap: "balance" }}
-      >
-        Your Rules, Your Career, Take Control
+      <h1 className="w-full lg:max-w-3xl text-4xl lg:text-5xl font-bold text-center">
+        Your Rules, <br className="sm:hidden" />
+        Your Career,
+        <br /> Take Control
       </h1>
       <p className="w-full max-w-md text-center">
         Work on your terms. Effortlessly attract clients with your works and
@@ -20,21 +19,11 @@ const Hero = () => {
           type="button"
           className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5"
         >
-          Join Waitlist
+          Join Now
         </button>
       </a>
 
       <Image
-        src="/interface.png"
-        width={0}
-        height={0}
-        sizes="100vw"
-        className="m-0 p-0"
-        style={{ width: "auto", height: "auto" }} // optional
-        alt=""
-      />
-
-      {/* <Image
         src="/avatar.png"
         width={0}
         height={0}
@@ -81,7 +70,7 @@ const Hero = () => {
         sizes="100vw"
         style={{ width: "auto", height: "140px" }} // optional
         alt=""
-      /> */}
+      />
     </div>
   );
 };
