@@ -14,7 +14,7 @@ const Benefits = () => {
         <p className="max-w-[460px]">
           Simplifying your journey with a unified space to connect, collaborate,
           and support each other - no more isolation! Showcase your expertise,
-          find opportunities, and communicate seamlessly on one platform.
+          find opportunities, and communicate seamlessly.
         </p>
       </div>
       <div className="w-full lg:w-3/5">
