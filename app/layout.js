@@ -1,8 +1,11 @@
 import "@/styles/globals.css";
-import { Open_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import { TailwindIndicator } from "@/components/TailwindIndicator";
 
-const inter = Open_Sans({ subsets: ["latin"] });
+import Script from "next/script";
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_MEASUREMENT_ID;
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Hyremi",
@@ -12,7 +15,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="antialiased select-none">
+    <html lang="en" className="antialiased">
       <head>
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
@@ -30,11 +33,28 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.className}`}
         style={{
-          backgroundColor: "#f8f6f0",
+          background: "#F7F8F9",
+          // background: "url(/background.png)",
+          // backgroundSize: "cover",
+          // backdropFilter: "blur(100%)",
         }}
       >
         {children}
         <TailwindIndicator />
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          if (window.location.hostname !== 'localhost' && window.location.hostname === 'hyremi.com') {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          }
+          `}
+        </Script>
       </body>
     </html>
   );
